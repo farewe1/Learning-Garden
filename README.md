@@ -47,6 +47,8 @@ status: learning
 
 必填字段是 `title`、`date`、`category`、`summary`。`status` 可选值是 `learning`、`done`、`reviewing`。
 
+如果你想给这个项目提交笔记，请先阅读 [提交笔记指南](./CONTRIBUTING.md)。
+
 ## 在笔记中放图片
 
 图片放到 `public/notes/<文章slug>/`，Markdown 中用根路径引用：
