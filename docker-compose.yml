@@ -1,0 +1,7 @@
+services:
+  learning-homepage:
+    build: .
+    container_name: learning-homepage
+    restart: unless-stopped
+    ports:
+      - "80:80"
