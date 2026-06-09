@@ -603,8 +603,9 @@ button {
 }
 
 .heatmap-section-compact .heatmap-wrap {
-  grid-template-columns: 20px 1fr;
-  gap: 8px;
+  grid-template-columns: 16px minmax(0, 1fr);
+  gap: 5px;
+  overflow-x: hidden;
   padding: 14px 0;
 }
 
@@ -616,14 +617,14 @@ button {
 }
 
 .heatmap-section-compact .heatmap-grid {
-  grid-auto-columns: 8px;
-  grid-template-rows: repeat(7, 8px);
-  gap: 3px;
+  grid-auto-columns: 6px;
+  grid-template-rows: repeat(7, 6px);
+  gap: 2px;
 }
 
 .heatmap-section-compact .heat-cell {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   border-radius: 2px;
 }
 
